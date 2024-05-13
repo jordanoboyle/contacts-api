@@ -1,0 +1,2 @@
+class FnamesController < ApplicationController
+end
