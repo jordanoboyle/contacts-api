@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get "/all_contacts" => "contacts#all_contacts"
 
+  get "/name_phone" => "contacts#name_phone"
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
