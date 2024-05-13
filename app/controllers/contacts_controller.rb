@@ -12,7 +12,9 @@ class ContactsController < ApplicationController
       phone_num: contact.phone_num
 
     }
+  end
 
-    # rebuild to render all contacts
+  def all_contacts
+    
   end
 end
