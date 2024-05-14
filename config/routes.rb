@@ -7,11 +7,13 @@ Rails.application.routes.draw do
 
   # get "/first_name", controller: "fnames", action: "first_names"
 
-  get "/contact_info" => "contacts#show_info"
+  get "/all_contacts" => "contacts#all"
+  
+  get "/single_contact" => "contacts#show"
 
-  get "/all_contacts" => "contacts#all_contacts"
+  
 
-  get "/name_phone" => "contacts#name_phone"
+  
 
   # Defines the root path route ("/")
   # root "posts#index"
